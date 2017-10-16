@@ -1,15 +1,8 @@
-    
-<!--
-	Author: W3layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
--->
+   
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Education Portal an Education Category Bootstrap Responsive Website Template | Home :: w3layouts</title>
-<!-- Meta tag Keywords -->
+<title></title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Education portal Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -17,6 +10,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--// Meta tag Keywords -->
+<!-- for nav menu -->
+<script type="application/x-javascript">
+</script>
+
 <!-- css files -->
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
@@ -29,8 +26,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="//fonts.googleapis.com/css?family=Montserrat+Alternates:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic" rel="stylesheet">
 <!-- //fonts -->
-
-
+<!-- internal css-->
+<style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
 
 
 <!-- //css files -->
@@ -50,31 +52,35 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				<div class="navbar-header navbar-left">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
+											</button>
 					<div class="w3_navigation_pos">
 						<h1><a href="index.html">Rethikamani Technologies Private Limited</i></a></h1>
 					</div>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-					<nav class="link-effect-2" id="link-effect-2">
-						<ul class="nav navbar-nav">
-							<li><a href="#about" class="scroll">About</a></li>
-							<li><a href="#services" class="scroll">Our Services</a></li>
-							<li><a href="#professor" class="scroll">SKILL TRAINING</a></li>
-							<li><a href="#professor" class="scroll">CSR PROJECT</a></li>
-							<li><a href="#contact" class="scroll">Contact</a></li>
-						</ul>
-					</nav>
+				
+
 				</div>
 				</div>
 			</nav>
 			
-	</div>
+		</div>
 		<!--//header-->
+<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+					<nav id="global-nav" class="nav">
+  <div class="container">
+    <div class="pull-left"><li><img src="rtech.png" width="128px" height="128px"></li></div>
+    <div class="pull-right">
+      <ul class="nav-list">
+        <li><a href = "#about">About</a></li>
+        <li><a href = "#gallery">Our Services</a></li>
+		<li><a href = "#services">Skill Training</a></li>
+		<li><a href = "#csr_project">CSR Project</a></li>
+		<li><a href = "#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>		
 <!-- banner -->
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
@@ -136,29 +142,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 			<span class="sr-only">Next</span>
 		</a>
-		<!-- The Modal -->
-		<div id="myModal" class="modal wthree-modal" tabindex="-1"> 
-			<!-- Modal content -->
-			<div class="modal-content">
-				<div class="modal-header">
-					<span class="close" data-dismiss="modal" >&times;</span>
-					<h3>Rethikamani Technologies Private Limited</h3>
-				</div>
-				<div class="col-md-6 modal-img">
-					<img src="images/ban1.jpg" class="img-responsive" alt="w3layouts" title="w3layouts">
-				</div>
-				<div class="col-md-6 modal-text">
-					<p class="banner-p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed nisl ultricies, dignissim mi at, dignissim dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque tempor ultrices nisi eget dictum. Integer quis massa ut elit laoreet consectetur. Sed rhoncus erat tellus, at commodo erat mattis eu.</p>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-		</div>		
-		<div class="thim-click-to-bottom">
-			<a href="#admission" class="scroll">
-				<i class="fa  fa-chevron-down"></i>
-			</a>
-		</div>
-    </div> 
+		
 	<!-- //banner -->
 	
 </section>	
@@ -183,7 +167,7 @@ To be a quality skill training provider, transforming potential talent to profes
 	<div class="gallery" id="gallery">
 		<div class="container">
 			<div class="agileits_w3layouts_head">
-			<h3>SKILL TRAINING</h3>
+			<h3>OUR SERVICES</h3>
 			</div>
 			<div class="w3layouts_gallery_grids">	
 				<div class="col-md-4 w3layouts_gallery_grid">
@@ -327,20 +311,19 @@ To be a quality skill training provider, transforming potential talent to profes
 
 <!--//services -->
 <!--/experience overview -->
-<div class="w3-faculty-ex">
-	<div class="w3-agile-faculty-head">
-	<h3>CSR Project</h3>
-	</div>
-	<div class="w3-aglile-faculty-grids">
-			Driven by a core ethos of community empowerment, we create transformative interventions from insights in our project areas
-<li>Medical Awareness Camp</li>
+<div id="csr_project" class="about all_pad w3ls">
+	<div class="container">
+		<h3 class="w3-about-title">CSR Project</h3>
+		<p>Driven by a core ethos of community empowerment, we create transformative interventions from insights in our project areas</p>
+		<li>Medical Awareness Camp</li>
 <li>Modernizing Agriculture practices</li>
 <li>Promotion of organic farming</li>
 <li>Promoting Digital learning in rural schools</li>
 <li>Working towards better livelihood of rural women’s</li>
+		
 
+		
 	</div>
-	<div class="clearfix"></div>
 </div>
 <!--//experience overview -->
 
@@ -373,7 +356,6 @@ To be a quality skill training provider, transforming potential talent to profes
 	<div class="agile-contact">
 	<div class=" contact-map-right">
 		<div id="map">
-		 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d387156.4247625735!2d-74.25986630413536!3d40.70349466278063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1445317114078"></iframe>
 		      </div>
 
 		</div>
@@ -408,17 +390,15 @@ To be a quality skill training provider, transforming potential talent to profes
 				</div>
 				<div class="col-md-6 w3-footer-icons">
 				<h3>Make call</h3>
-				<i class="fa fa-phone" aria-hidden="true"></i><span>+91-9597096330</span>
+				<i class="fa fa-phone" aria-hidden="true"></i><span>+91-9597096330</span><br><br><br><br>
+				<table cellpadding='0' border='0' cellspacing='0' width='105'><tr><td height='18' width='105'><a href='' target="_blank"><p>No of visitors:</p><img src='http://image-free-counter.net/morrisesm/incisiondf.png' height='18' border='0' alt="" width='105'></a></td></tr></table>
 				</div>
+				
 			</div>
 			<div class="clearfix"> </div>
 		</div>
-		
-
 	</div>
 </div>
-<!-- //footer -->
-	<!-- start-smooth-scrolling -->
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>	
 	<script type="text/javascript">
@@ -430,8 +410,6 @@ To be a quality skill training provider, transforming potential talent to profes
 				});
 			});
 	</script>
-	<!-- //end-smooth-scrolling -->	
-	<!-- smooth-scrolling-of-move-up -->
 	<script type="text/javascript">
 		$(document).ready(function() {
 			/*
@@ -447,4 +425,21 @@ To be a quality skill training provider, transforming potential talent to profes
 			
 		});
 	</script>
+	<script>
+      function initMap() {
+        var uluru = {lat: 12.934209, lng:79.147866};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEylQbMKubWxtky5FrQaiMCTcd7ojDyhs&callback=initMap">
+    </script>
 	<!-- //smooth-scrolling-of-move-up -->  
+	

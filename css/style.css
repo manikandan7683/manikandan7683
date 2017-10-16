@@ -1,9 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 /*--header--*/
 h1,h2,h3,h4,h5,h6{
 	margin:0;
@@ -69,8 +64,8 @@ img {
 }
 .w3_navigation_pos {
       position: absolute;
-    top: 26px;
-    left: 35%;
+    top: 290px;
+    left: 15%;
     z-index: 1;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -94,7 +89,7 @@ img {
 .w3_navigation_pos h1 a span {
     display: inline-block;
 	color:#d7600d;
-	width: 20px;
+	width: 1200px;
     height: 45px;
 	
     background-color: yellow;
@@ -2252,6 +2247,67 @@ ul.w3l_footer_nav li a {
 	.navbar-toggle {
     top: -36px;
 	}
+}
+
+#global-nav {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  height: 150px;
+  width: 100%;
+  color: black;
+  line-height: 150px;
+    -webkit-transition: height .5s, line-height .5s; /* Safari */
+    transition: height .5s, line-height .5s;
+}
+
+.site-title {
+  display: inline-block;
+  -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.title{
+	height: 100px;
+	width: 150px;
+}
+
+.scrolled-nav .site-title  {
+  font-size: 16px;
+}
+
+.nav-list {
+  list-style: none;
+}
+.nav-list li a{
+  color: white;
+}
+
+.nav-list li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.scrolled-nav {
+  height: 60px !important;
+  line-height: 60px !important;
+  background: rgb(64, 64, 64);
+}
+
+.counter {
+  width: 20px;
+  height: 20px;
+  background: black;
+  color: #fff;
+  position: fixed;
+  top: 120px;
+  right: 0;
+}
+
+.credit p{
+	float: right;
+	padding-right: 20px;
 }
 
 
